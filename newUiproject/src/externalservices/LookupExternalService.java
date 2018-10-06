@@ -15,7 +15,7 @@ import dataobjects.StrategyinvestResult;
 
 public class LookupExternalService {
 
-	private String weeklyservice = "http://nsweekins-nseweek.193b.starter-ca-central-1.openshiftapps.com/restservices/rest/";
+	private String weeklyservice = "http://nseweekins-nseweek.1d35.starter-us-east-1.openshiftapps.com/restservices/rest/";
 	private String dailyservice ="http://nsdayins-nseday.7e14.starter-us-west-2.openshiftapps.com/restservices/rest/";
 	//daily - http://nsdayins-nseday.7e14.starter-us-west-2.openshiftapps.com 
 	//weekly - http://nsweekins-nseweek.193b.starter-ca-central-1.openshiftapps.com 
@@ -98,7 +98,7 @@ System.out.println(result);
 	public void callRTUpdate() {
 		// TODO Auto-generated method stub
 		callRTUpdate(weeklyservice);
-		callRTUpdate(dailyservice);
+		//callRTUpdate(dailyservice);
 		
 		
 	}
